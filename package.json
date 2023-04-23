@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/Jaucordi1"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TypeScript (Type-Safe) Object Builder",
   "main": "dist/csj/index.js",
   "module": "dist/esm/index.js",
