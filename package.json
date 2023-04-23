@@ -3,19 +3,22 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/Jaucordi1"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript (Type-Safe) Object Builder",
   "main": "dist/csj/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
     "prebuild": "rimraf ./dist/",
     "build": "rollup -c rollup.config.mjs",
     "test": "jest",
-    "prepublishOnly": "pnpm run build",
-    "publish": "pnpm publish",
-    "preversion": "pnpm test",
-    "version": "pnpm run build && pnpm version patch",
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish",
+    "preversion": "npm test",
+    "version": "npm run build && npm version patch",
     "postversion": "git add . && git commit -m \"Bump version\" && git push && git push --tags"
   },
   "author": {

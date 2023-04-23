@@ -6,12 +6,6 @@
 ```shell
 # npm
 npm install --save ts-object-builder
-
-# pnpm
-pnpm install -P ts-object-builder
-
-# Yarn
-yarn add ts-object-builder
 ```
 
 ## Use
@@ -38,7 +32,6 @@ const myObject = ObjectBuilder
 ## Dev
 You need a `.npmrc` file containing following keys _(replace values between {})_
 ```.npmrc
-enable-pre-post-scripts=true
 registry=https://registry.npmjs.org/
 @{USERNAME}:registry=https://npm.pkg.github.com/
 //npm.pkg.github.com/:_authToken={AUTH_TOKEN}
