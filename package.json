@@ -16,7 +16,7 @@
     "publish": "pnpm publish",
     "preversion": "pnpm test",
     "version": "pnpm run build && pnpm version patch",
-    "postversion": "git push && git push --tags"
+    "postversion": "git add . && git commit -m \"Bump version\" && git push && git push --tags"
   },
   "author": {
     "name": "Jason AUCORDIER",
