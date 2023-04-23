@@ -17,7 +17,8 @@
     "test": "jest",
     "prepublishOnly": "npm run build",
     "publish": "npm publish",
-    "preversion": "run-s test build"
+    "preversion": "run-s test build",
+    "postversion": "git push && git push --tags"
   },
   "author": {
     "name": "Jason AUCORDIER",
