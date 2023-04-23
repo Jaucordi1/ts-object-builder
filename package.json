@@ -1,5 +1,8 @@
 {
-  "name": "ts-object-builder",
+  "name": "@jaucordi1/ts-object-builder",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Jaucordi1"
+  },
   "version": "0.0.1",
   "description": "TypeScript (Type-Safe) Object Builder",
   "main": "dist/csj/index.js",
@@ -33,9 +36,6 @@
     "ts-jest": "^29.1.0",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Jaucordi1"
   },
   "repository": {
     "url": "https://github.com/Jaucordi1/ts-object-builder.git"
