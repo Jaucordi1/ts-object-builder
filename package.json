@@ -9,10 +9,10 @@
     "prebuild": "rimraf ./dist/",
     "build": "rollup -c rollup.config.mjs",
     "test": "jest",
-    "prepublishOnly": "npm run build",
-    "publish": "npm publish",
-    "preversion": "npm test",
-    "version": "npm run build && npm version patch",
+    "prepublishOnly": "pnpm run build",
+    "publish": "pnpm publish",
+    "preversion": "pnpm test",
+    "version": "pnpm run build && pnpm version patch",
     "postversion": "git push && git push --tags"
   },
   "author": {
