@@ -28,11 +28,3 @@ const myObject = ObjectBuilder
     // .with('age', 10)
     .build();
 ```
-
-## Dev
-You need a `.npmrc` file containing following keys _(replace values between {})_
-```.npmrc
-registry=https://registry.npmjs.org/
-@{USERNAME}:registry=https://npm.pkg.github.com/
-//npm.pkg.github.com/:_authToken={AUTH_TOKEN}
-```
