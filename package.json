@@ -1,8 +1,9 @@
 {
-  "name": "@jaucordi1/ts-object-builder",
+  "name": "smart-ts-object-builder",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Jaucordi1"
+    "registry": "https://registry.npmjs.org/"
   },
+  "private": false,
   "version": "0.0.4",
   "description": "TypeScript (Type-Safe) Object Builder",
   "main": "dist/csj/index.js",
